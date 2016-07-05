@@ -1,5 +1,17 @@
 # tzwhere [![Build Status](https://travis-ci.org/mattbornski/tzwhere.png)](http://travis-ci.org/mattbornski/tzwhere) [![Donate to this project using Patreon](https://img.shields.io/badge/patreon-donate-yellow.svg)](http://patreon.com/mattbornski) [![Donate to this project using Gratipay](https://img.shields.io/badge/gratipay-donate-yellow.svg)](https://www.gratipay.com/mattbornski)
 
+#This if fork
+of @mattbornski https://github.com/mattbornski/tzwhere.git
+Very rough cache implementation.
+Caches at install stage.
+
+#Usage
+```
+tzwhere.init(null, {forceCache: true}) to use prebuilt libs.
+```
+
+
+
 Determine timezone from lat/long in NodeJS
 
 ## Installation

@@ -38,6 +38,7 @@
     "mocha": "1.x"
   },
   "scripts": {
-    "test": "for i in `ls test/*.js`; do mocha $i; done"
+    "test": "for i in `ls test/*.js`; do mocha $i; done",
+    "postinstall": "node ./lib/cache.js"
   }
 }
